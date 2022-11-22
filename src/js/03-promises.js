@@ -54,6 +54,8 @@ refs.formEl.addEventListener('submit', e => {
       }
     }, interval);
   }, delay);
+
+  e.target.reset();
 });
 
 function createPromise(position, delay) {
